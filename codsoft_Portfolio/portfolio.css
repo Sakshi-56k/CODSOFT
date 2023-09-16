@@ -1,0 +1,84 @@
+body{
+   background-color:#3C096C;
+    color: #FFF;
+    padding: 10px;
+    margin: 40px;
+    font-family:"Courier New";
+    text-align: center;
+    font-size: 25px;
+   
+ }
+
+header{
+    background-color:#5A189A;
+    
+    padding: 10px;
+    margin: 40px;
+    font-family:"Courier New";
+    text-align: center;
+    font-size: 25px;
+    
+   }
+   
+ .skills{ 
+     background-color:#7B2CBF;
+   
+    padding: 10px;
+ }
+ .skills ul {
+    list-style: none;
+    padding-left: 10px;
+    text-align: center;
+   
+}
+
+.skills li {
+    display: inline;
+    margin-right: 20px;
+  
+}
+
+.projects {
+    margin-bottom: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 20px;
+}
+
+.project{
+    padding: 20px;
+    background-color:#9D4EDD;
+    color: #;
+   
+}
+
+.resume {
+    text-align: center;
+    padding: 20px;
+}
+
+.achievements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+.certification{
+    background-color:  #C77DFF;
+    color:#240046;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.certification img{
+    max-width: 100%;
+
+} 
+
+#contact {
+    background-color: #E0AAFF;
+    color: #240046;
+    text-align: center;
+    padding: 20px;
+}
